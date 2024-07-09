@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Taking App</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="/javascripts/script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-900 via-purple-900 to-gray-900 min-h-screen flex items-center justify-center">
+    <div class="main w-full max-w-lg bg-gray-800 p-8 rounded-lg shadow-lg">
+        <h1 class="text-white text-3xl font-bold text-center mb-6">Edit Note</h1>
+        <form action="/delete" method="post">
+            <div class="form-group mb-6">
+                <label for="deletefile" class="block text-gray-300 mb-2">File to be Deleted!</label>
+                <input type="text" name="deletefile" id="deletefile" class="w-full p-3 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="File to be deleted" required value="<%= title %>">
+            </div>
+            <button class="btn w-full p-3 rounded-md bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-500" type="submit" value="submit">Delete!</button>
+        </form>
+        <div class="flex justify-center mt-6">
+            <a class="text-orange-500 text-xl hover:text-orange-400 transition-colors duration-300" href="/">Back Home!</a>
+        </div>
+    </div>
+</body>
+</html>

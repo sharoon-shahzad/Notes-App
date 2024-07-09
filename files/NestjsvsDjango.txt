@@ -1,0 +1,1 @@
+The choice between ExpressJS and NestJS depends on project needs and developer preferences. ExpressJS is flexible and lets you do things your way. NestJS, on the other hand, uses TypeScript and has a structured approach, making it easy to read and scale.

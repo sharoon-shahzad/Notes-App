@@ -1,0 +1,1 @@
+Astro and React are two modern JavaScript frameworks that have garnered a lot of attention from developers for building dynamic, efficient, and scalable web applications. Each framework has its unique strengths and weaknesses, making them suitable for different types of projects

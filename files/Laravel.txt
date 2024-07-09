@@ -1,0 +1,1 @@
+Laravel is an easy-to-use web framework that will help you create extensible PHP-based websites and web applications at scale. Before creating a web app or website, you need to make a foundational decision as to what technology you are going to use. This is one of the trickiest parts of the web development process
