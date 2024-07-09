@@ -79,8 +79,8 @@ app.post("/edit", (req, res) => {
   console.log(req.body);
   const newtitle = req.body.newtitle
   const prevtitle = req.body.previoustitle;
-  console.log(newtitle);
-  console.log(prevtitle);
+  // console.log(newtitle);
+  // console.log(prevtitle);
   fs.rename( `./files/${prevtitle}`, `./files/${newtitle}`, (err) => {
     if(err){
       res.status(404).send("File not found");
